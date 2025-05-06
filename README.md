@@ -25,7 +25,6 @@ SalesSavvy offers:
 - MySQL
 
 ### Tools & Libraries:
-- Axios
 - React Router
 - Postman (for API testing)
 
