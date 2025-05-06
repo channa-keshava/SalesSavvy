@@ -1,6 +1,6 @@
 # SalesSavvy
 
-SalesSavvy is a scalable e-commerce platform tailored for small and medium-sized businesses. It provides a comprehensive admin panel, customer interface, and payment integration to facilitate easy product and order management.
+SalesSavvy is an e-commerce solution designed for small and medium businesses, streamlining online sales and enhancing customer interactions. It features an admin panel for managing products, users, and orders, along with a customer interface for seamless browsing, shopping, and order tracking. The platform integrates secure payment options like Razorpay, PayPal, and Stripe while maintaining a scalable architecture that allows businesses to expand functionality as needed. Built with a full-stack approach, SalesSavvy uses React for a dynamic frontend, Java for backend logic, and MySQL for secure data management. Additionally, it incorporates sales management tools such as customer records and sales monitoring to improve operational efficiency.
 
 ## 🌐 Project Overview
 
@@ -63,4 +63,24 @@ SalessavvyApp-Frontend/
 ├── eslint.config.js
 └── README.md
 
-
+SalesSavvy-Backend/
+├── src/
+│ ├── main/
+│ │ ├── java/com/example/demo/
+│ │ │ ├── SalesSavvyApplication.java
+│ │ │ ├── admincontrollers/
+│ │ │ ├── adminservices/
+│ │ │ ├── controller/
+│ │ │ ├── dto/
+│ │ │ ├── entity/
+│ │ │ ├── filter/
+│ │ │ ├── repository/
+│ │ │ └── service/
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── static/templates (if any)
+│ └── test/java/com/example/demo/
+├── pom.xml
+├── mvnw / mvnw.cmd
+├── HELP.md
+├── target/
