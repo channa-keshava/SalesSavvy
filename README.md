@@ -30,4 +30,37 @@ SalesSavvy offers:
 - Postman (for API testing)
 
 ## 📁 Project Structure
+SalessavvyApp-Frontend/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ │ ├── logo.png
+│ │ └── useravatar.png
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ ├── index.css
+│ ├── Routes.jsx
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ ├── CartIcon.jsx
+│ │ ├── CategoryNavigation.jsx
+│ │ ├── ProfileDropdown.jsx
+│ │ └── CustomModal.jsx
+│ ├── pages/
+│ │ ├── LoginPage.jsx
+│ │ ├── RegistrationPage.jsx
+│ │ ├── CustomerHomePage.jsx
+│ │ ├── AdminDashboard.jsx
+│ │ ├── AdminLogin.jsx
+│ │ ├── ProductList.jsx
+│ │ ├── CartPage.jsx
+│ │ └── OrderPage.jsx
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+
 
